@@ -9,7 +9,7 @@ You may choose to read the <code>filtered</code> list of major web development p
     >* Access Open Dota's API to retrieve game heroes
     >* Insertion of Player's ID generates player's info
     >* Top heroes sort according to player's win rate
-    >* <code>Due to recent changes and monthly payment for Open Dota's API, this no longer works</code>
+    >* <code>Due to the new monthly payment requirement for Open Dota's API, this no longer works</code>
 
 * #### Bounty Tracker
     >* Full CRUD application for retrieving, posting, editing & deleting bounties
