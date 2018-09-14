@@ -32,5 +32,5 @@ You may choose to read the <code>filtered</code> list of major web development p
 <br/>
 <br/>
 
-> _*All projects are built to be responsive_
+_*All projects are built to be responsive_
 
