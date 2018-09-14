@@ -31,7 +31,6 @@ You may choose to read the __filtered__ list of major web development projects b
     >* Top heroes sort according to player's win rate
     >* Due to the __new monthly payment requirement__ for Open Dota's API, this no longer works
 <br/>
-<br/>
 
 _*All projects are built to be responsive_
 
