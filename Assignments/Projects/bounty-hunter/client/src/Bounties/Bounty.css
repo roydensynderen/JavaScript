@@ -1,0 +1,38 @@
+.body {
+    display: inline-block;
+    width: 33.15%;
+    margin: 1px;
+    clear: right;
+}
+
+.wrapper {
+    border: 2px solid #240041;
+    padding: 0.7rem;
+    background-color: white;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.delBtn, .submitEditBtn {
+    background-color: white;
+    padding: 1.5%;
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 10px 2px 0px 2px;
+}
+
+.bountyInput {
+    background-color: white;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid grey;
+    padding: 0px 7px;
+}
+
+.btnWrapper {
+    background-color: white;
+    text-align: center;
+}

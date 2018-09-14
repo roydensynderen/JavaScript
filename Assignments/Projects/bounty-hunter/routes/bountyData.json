@@ -1,0 +1,72 @@
+[
+    {
+        "fullName": "Obi Wan Kenobi",
+        "living": true,
+        "bountyAmount": 10,
+        "type": "Jedi",
+        "_id": "7a988632-0500-4781-9171-0397bf48efce"
+    },
+    {
+        "fullName": "Darth Maul",
+        "living": true,
+        "bountyAmount": 13,
+        "type": "Sith",
+        "_id": "fc7dabad-4715-47bd-b443-2e89b48dccbf"
+    },
+    {
+        "fullName": "Darth Vader",
+        "living": true,
+        "bountyAmount": 14,
+        "type": "Sith",
+        "_id": "5bf4bac8-fbe4-4436-8911-628e0ce5c936"
+    },
+    {
+        "fullName": "Yoda",
+        "living": true,
+        "bountyAmount": 1,
+        "type": "Jedi",
+        "_id": "f07c2721-0ccc-4dac-942e-481592514caf"
+    },
+    {
+        "fullName": "Stormtrooper",
+        "living": true,
+        "bountyAmount": 6,
+        "type": "Sith",
+        "_id": "a81dbc03-05de-455c-aa6d-055272c5f724"
+    },
+    {
+        "fullName": "Han Solo",
+        "living": true,
+        "bountyAmount": 15,
+        "type": "Jedi",
+        "_id": "355e6e7e-3c1a-4693-8b40-2946f2663da7"
+    },
+    {
+        "fullName": "Ewoks",
+        "living": true,
+        "bountyAmount": 8,
+        "type": "Jedi",
+        "_id": "184b7413-92b0-4236-a101-26c9bd54824d"
+    },
+    {
+        "fullName": "Xizor",
+        "living": true,
+        "bountyAmount": 5,
+        "type": "Sith",
+        "_id": "772b5199-1417-4bfd-af43-0cf8b2ce7d6f"
+    },
+    {
+        "fullName": "Ulic Qel-Droma",
+        "living": true,
+        "bountyAmount": 9,
+        "type": "Jedi",
+        "_id": "61749547-e75b-4dcb-ba60-2062776e6af4"
+    },
+    {
+        "fullName": "Thrawn",
+        "living": true,
+        "bountyAmount": 10,
+        "type": "Sith",
+        "_id": "489025f2-adab-49db-b317-46e828012991"
+    }
+]

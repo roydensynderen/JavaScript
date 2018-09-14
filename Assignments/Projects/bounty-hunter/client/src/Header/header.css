@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #240041;
+}
+
+.header {
+    background-image: linear-gradient(
+                    rgba(36, 0, 65, 0.5),
+                    rgba(144, 0, 72, 0.5)),
+                    url('headerbg.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 310px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.heading {
+    font-family: JuliusSansOne-Regular;
+    color: #00d1ff;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    background-color: transparent;
+}
+
+/* https://colorhunt.co/palette/118028 */
