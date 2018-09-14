@@ -1,6 +1,6 @@
 ### V-School
 
-Graduated from a Full-Stack JavaScript Program from the coding bootcamp specializing in the MERN Stack, consisting of Mongo, Express, React & Node respectively. Exercises and projects done in school can be found here. 
+Graduated from a Full-Stack JavaScript Program specializing in the MERN Stack, consisting of Mongo, Express, React & Node respectively. Exercises and projects done in V School can be found here. 
 
 You may choose to read the __filtered__ list of major web development projects below:  
 
