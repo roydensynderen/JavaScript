@@ -2,14 +2,14 @@
 
 Graduated from a Full-Stack JavaScript Program from the coding bootcamp specializing in the MERN Stack, consisting of Mongo, Express, React & Node respectively. Exercises and projects done in school can be found here. 
 
-You may choose to read the <span style='color:red'>*filtered*</span> list of major web development projects below:  
+You may choose to read the __filtered__ list of major web development projects below:  
 
 #### __MAJOR WEB DEVELOPMENT PROJECTS__
 * #### API Project
     >* Access Open Dota's API to retrieve game heroes
     >* Insertion of Player's ID generates player's info
     >* Top heroes sort according to player's win rate
-    >* Due to the <span style='color:red'>*new monthly payment requirement*</span> for Open Dota's API, this no longer works
+    >* Due to the __new monthly payment requirement__ for Open Dota's API, this no longer works
 
 * #### Bounty Tracker
     >* Full CRUD application for retrieving, posting, editing & deleting bounties
