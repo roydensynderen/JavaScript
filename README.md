@@ -31,5 +31,6 @@ You may choose to read the <code>filtered</code> list of major web development p
     >* You may view it [here](https://gamified-goaltracker.herokuapp.com)
 <br/>
 <br/>
-##### **All projects are built to be responsive*
+
+> _*All projects are built to be responsive_
 
