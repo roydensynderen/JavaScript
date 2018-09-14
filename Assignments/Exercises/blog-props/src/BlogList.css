@@ -1,0 +1,26 @@
+.bloglist {
+    margin-top: 460px;
+    padding: 80px;
+}
+
+.maintext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    color: white;
+    background-color: #0085a1;
+    height: 50px;
+    width: 180px;
+    font-family: OpenSans-Regular;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 21px;
+    position: absolute;
+    right: 253px;
+    margin: 10px 5px 5px 5px;
+}

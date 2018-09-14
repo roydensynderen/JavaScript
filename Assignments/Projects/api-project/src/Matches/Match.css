@@ -1,0 +1,41 @@
+.matchTable {
+    background-color: #005e7c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #40f2ff;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 12px;
+    width: 45%;
+    margin-left: 27.2%;
+}
+
+@media (max-width: 715px) {
+    .matchTable {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 605px) {
+    .matchTable {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 605px) {
+    .matchTable {
+        font-size: 7px;
+        width: 50%;
+        margin-left: 24%;
+    }
+}
+
+@media (max-width: 400px) {
+    .matchTable {
+        font-size: 5px;
+        width: 60%;
+        margin-left: 20%;
+    }
+}

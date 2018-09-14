@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-image: url("blankpage.jpg");
+    background-size: cover;
+    position: absolute;
+    height: 73%;
+    width: 100%;
+    z-index: -1;
+}
+.overlay {
+    height: 500px;
+    background-color: #212529;
+    opacity: .5;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.headerText {
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    text-align: center;
+    z-index: 1;
+}
+.headerh1 {
+    font-size: 80px;
+    font-family: OpenSans-Regular;
+    font-weight: 800;
+}
+.headerh5 {
+    font-size: 25px;
+    font-family: OpenSans-Light;
+    font-weight: 200;
+}

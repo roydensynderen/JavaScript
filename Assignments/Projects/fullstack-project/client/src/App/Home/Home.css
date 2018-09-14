@@ -1,0 +1,80 @@
+.home {
+    background-image: url(http://morrison6.com/wp-content/uploads/2018/06/astonishing-toilet-interior-design-stunning-decoration-toilet-interior-design-shocking-style-toilet-interior-design-images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 575px;
+}
+.headerText {
+    width: 50%;
+    padding: 70px 0px 0px 130px;
+    color: whitesmoke;
+}
+.firstLine {
+    font-size: 30px;
+    font-weight: 100px;
+}
+.secondLine {
+    font-size: 57px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    border-bottom: 5px dotted #02aab6;
+    width: 60%;
+}
+.thirdLine {
+    width: 70%;
+    font-size: 18px;
+    padding: 25px 0px;
+    line-height: 30px;
+}
+#btn {
+    background-color: rgba(64, 75, 105, 0.9);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 10;
+    margin-top: 5px;
+    width: 55%;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+@media (max-width: 1062px) {
+    #btn {
+        font-size: 16px;
+    }
+    .secondLine {
+        font-size: 45px;
+    }
+    .headerText {
+        width: 70%;
+    }
+}
+
+@media (max-width: 850px) {
+    #btn {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 802px) {
+    .secondLine {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 638px) {
+    .secondLine {
+        font-size: 30px;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+
+    .headerText {
+        padding: 0;
+        padding: 15% 0 0 15%;
+        width: 100%;
+    }
+
+}

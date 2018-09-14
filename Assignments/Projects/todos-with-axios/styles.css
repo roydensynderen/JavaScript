@@ -1,0 +1,38 @@
+* {
+    font-family: Chalkboard;
+}
+
+body {
+    background-image: url("https://cdn-images-1.medium.com/max/2000/1*UGMKjDjBFyFlCG2Gi9QxBA.jpeg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: lightseagreen;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+section {
+    background-color: rgba(211, 211, 211, 0.4);
+    margin: 50px 350px;
+}
+
+form {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+#delete {
+    display: inline-block;
+    height: 20px;
+    width: 12%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}

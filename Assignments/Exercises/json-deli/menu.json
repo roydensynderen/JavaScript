@@ -1,0 +1,68 @@
+{
+    "appetizers": 
+        [
+            {"name": "eggs",
+            "description": "Scrambled eggs mixed with soy sauce and cheese",
+            "ingredients": ["eggs", "soy sauce", "cheese"]
+            },
+            {"name": "salad",
+            "description": "Just a bowl of salad",
+            "ingredients": ["spinach", "raisin", "salad sauce", "bacon"]
+            },
+            {"name": "fruits",
+            "description": "A bowl of sliced fruits",
+            "ingredients": ["honeydew", "strawberry", "papaya", "banana"]}
+        ],
+
+    "cold sandwiches": 
+        [
+            {"name": "italian bmt",
+            "description": "A cold sandwich that have a mix of vegetables and ham",
+            "ingredients": ["bread", "ham", "spinach", "tomatoes"]
+            }, 
+            {"name": "vege delite",
+            "description": "The perfect sandwich for vegetarians",
+            "ingredients": ["spinach", "cucumber", "avocado", "peppers"]
+            },
+            {"name": "black forest ham",
+            "description": "The sandwich loaded with olives and turkey ham",
+            "ingredients": ["ham", "olives", "banana peppers", "spinach"]}
+        ],
+    
+    "hot sandwiches":
+        [
+            {"name": "meatball sandwich",
+            "description": "Sandwich loaded with meatballs and tomato sauce",
+            "ingredients": ["meatballs", "tomato sauce", "olives"]
+            },
+            {"name": "steak and cheese",
+            "description": "Sandwich with beef steak and grilled cheese",
+            "ingredients": ["beef steak", "grilled cheese", "avocado"]
+            },
+            {"name": "spicy crab sandwich",
+            "description": "Sandwich filled with crab meat and spice",
+            "ingredients": ["crab meat", "spicy sauce", "vinegar"]}
+        ],
+        
+    "drinks":
+        [
+            {"name": "strawberry shake",
+            "description": "A fruit smoothie",
+            "ingredients": ["strawberry", "milk", "chia seeds"]
+            },    
+            {"name": "almond milk",
+            "description": "Lactose-free homemade almond milk",
+            "ingredients": ["almond nuts", "almond milk", "chia seeds"]}
+        ],
+    
+    "desserts":
+        [
+            {"name": "fruit cake",
+            "description": "A slice of fruit cake",
+            "ingredients": ["sliced kiwi", "sliced strawberry", "flour", "mango"]
+            },
+            {"name": "yogurt",
+            "description": "Homemade yogurt",
+            "ingredients": ["cultured milk", "raisins", "granola cereal"]}
+        ]
+}

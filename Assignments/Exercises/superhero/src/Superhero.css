@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.superheroes {
+    height: 100%;
+    width: 100%;
+}
+.cyborg {
+    display: inline-block;
+    width: 33%;
+    background-image: url(cyborg.png);
+    background-size: contain;
+    height: 400px;
+}
+.robin {
+    display: inline-block;
+    width: 33%;
+    background-image: url(robin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.beastboy {
+    display: inline-block;
+    width: 33%;
+    background-image: url(beastboy.png);
+    zoom: 1.15;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.raven {
+    display: inline-block;
+    width: 40%;
+    background-image: url(raven.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-left: 200px;
+}
+.starfire {
+    display: inline-block;
+    width: 40%;
+    background-image: url(starfire.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.firstBtn {
+    background-color: lightseagreen;
+    height: 50px;
+    width: 50px;
+    color: white;
+    position: absolute;
+    top: 27%;
+    left: 17%;
+}
+
+.secondBtn {
+    background-color: lightseagreen;
+    height: 50px;
+    width: 50px;
+    color: white;
+    position: absolute;
+    top: 27%;
+    left: 48%;
+}
+
+.thirdBtn {
+    background-color: lightseagreen;
+    height: 40px;
+    width: 40px;
+    color: white;
+    position: absolute;
+    top: 27%;
+    left: 79%;
+}
+
+.forthBtn {
+    background-color: lightseagreen;
+    height: 50px;
+    width: 50px;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+}
+
+.fifthBtn {
+    background-color: lightseagreen;
+    height: 50px;
+    width: 50px;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+}

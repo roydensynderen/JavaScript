@@ -1,0 +1,221 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+.heading {
+    padding: 20px 0px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBar {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navBar2 {
+    color: #f70776;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navBar:hover, .navBar2:hover {
+    transform: scale(1.3);
+    transition-duration: 400ms;
+    cursor: pointer;
+  }
+
+.firstSection {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 170px;
+    padding: 90px 80px 135px 80px;
+    background-color: darkturquoise;
+}
+
+.tDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 65px;
+}
+
+.iTalent {
+    width: 24%;
+    border-radius: 500px;
+    height: 270px;
+    margin: 75px 55px 25px 25px;
+    border: 5px solid #f70776;
+}
+
+.tHeading {
+    margin: 40px 0px 50px 0px;
+    font-size: 45px;
+    color: white;
+}
+
+.pTalent {
+    margin-right: 20px;
+    font-size: 18px;
+    color: lightcyan;
+    letter-spacing: 1.5px;
+}
+
+.iDisease {
+    width: 30%;
+    height: 280px;
+    border: 5px solid #f70776;
+    margin: 40px 0px 0px 60px;
+}
+
+.secondSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 170px;
+    padding: 100px 80px 140px 80px;
+    background-color: purple;
+}
+
+.dDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: right;
+    height: 120px;
+    margin-right: 60px;
+}
+
+.pDisease {
+    font-size: 18px;
+    color: lightcyan;
+    letter-spacing: 1.5px;
+    margin-left: 60px;
+}
+
+.dHeading {
+    font-size: 35px;
+    color: white;
+    padding: 35px 0px 40px 0px;
+}
+
+@media (max-width: 1170px) {
+    .tHeading, .dHeading {
+        font-size: 25px;
+    }
+
+    .pTalent, .pDisease {
+        font-size: 14px;
+    }
+
+    .iTalent {
+        height: 230px;
+    }
+
+    .iDisease {
+        height: 220px;
+        width: 25%;
+    }
+}
+
+@media (max-width: 900px) {
+    .firstSection, .secondSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iTalent {
+        width: 20%;
+        height: 150px;
+        margin: 0;
+    }
+    .tDescription {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tHeading {
+        margin: 10px 0px 0px 0px;
+        font-size: 16px;
+    }
+
+    .pTalent {
+        font-size: 12px;
+        margin-bottom: 12
+        0px;
+    }
+    .iDisease {
+        height: 160px;
+        width: 30%;
+        margin: 0px 0px 75px 0px;
+    }
+    .pDisease {
+        font-size: 12px;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    .dHeading {
+        margin: 10px 0px 0px 0px;
+        padding: 0px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .dDescription {
+        margin-left: 45px;
+    }
+}
+
+@media (max-width: 670px) {
+    .pDisease, .pTalent {
+        font-size: 10px;
+    }
+
+    .tDescription, .dDescription {
+        margin: 0;
+        padding: 0;
+    }
+
+    .iTalent {
+        height: 100px;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 515px) {
+    .iTalent, .iDisease {
+        display: none;
+    }
+}
+
+@media (max-width: 303px) {
+    .firstSection, .secondSection {
+        padding: 0;
+        margin: 0;
+    }
+    .pTalent, .pDisease {
+        font-size: 8px;
+        text-align: center;
+        padding: 0px 5px;
+    }
+
+    .tHeading, .dHeading {
+        font-size: 10px;
+    }
+}

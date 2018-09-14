@@ -1,0 +1,36 @@
+.heroStats {
+    background-color: #005e7c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #40f2ff;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.heroP, .heroP4 {
+    width: 25%;
+    text-align: center;
+}
+
+.heroP2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media (max-width: 1085px) {
+    .heroStats {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 715px) {
+    .heroP4 {
+        display: none;
+    }
+    .heroP, .heroP2 {
+        width: 33%;
+    }
+}

@@ -1,0 +1,30 @@
+.heroesHeader {
+    height: 125px;
+    background-color: #606470; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroesHeading {
+    color: #40f2ff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.heroesMain {
+    background-color: #323643;
+    height: 525px;
+}
+
+@media (max-width: 605px) {
+    .heroesHeading {
+        font-size: 25px;
+    }
+    .heroesHeader {
+        height: 70px;
+    }
+}

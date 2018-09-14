@@ -1,0 +1,83 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+p {
+    color: white;
+    margin: 5px 220px;
+    padding: 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.heading {
+    padding: 20px 0px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBar {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navBar2 {
+    color: #f70776;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navBar:hover, .navBar2:hover {
+    transform: scale(1.3);
+    transition-duration: 400ms;
+    cursor: pointer;
+  }
+
+.about-us {
+    background-image: linear-gradient(
+        to right top, 
+        #8b0453ef,
+        #fafafa00
+      ), url(dnapurple2.jpg);
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+}
+
+.about-heading {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 40px 0px 0px 0px;
+}
+
+.video {
+    text-align: center;
+    padding: 30px;
+    background-image: linear-gradient(
+        to left top, 
+        #04ffc9, 
+        #e95cfcd7);
+}
+
+@media (max-width: 1000px) {
+    .about-heading {
+        font-size: 30px;
+    }
+    p {
+        font-size: 18px;
+        margin: 0px;
+    }
+    iframe {
+        width: 300px;
+        height: 350px;
+    }
+}

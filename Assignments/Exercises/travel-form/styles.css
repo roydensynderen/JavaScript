@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+div {
+  display: inline-block;
+  width: 38%;
+  margin-left: 370px;
+  margin-top: 150px;
+  background-color: lightskyblue;
+  padding: 25px;
+  opacity: 0.9;
+  border-radius: 5%;
+}
+
+body {
+  background-image: url(aero.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  margin-left: 167px;
+}
+
+span,
+label {
+  padding: 5px;
+}

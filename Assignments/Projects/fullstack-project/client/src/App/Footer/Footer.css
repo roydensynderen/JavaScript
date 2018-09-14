@@ -1,0 +1,23 @@
+.footer {
+    background-color: #283149;
+    height: 50px;
+    text-align: center;
+}
+.footerText {
+    padding-top: 15px;
+    color: whitesmoke;
+}
+
+@media (max-width: 440px) {
+    .footerText {
+        padding-top: 17.5px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 330px) {
+    .footerText {
+        padding-top: 20px;
+        font-size: 10px;
+    }
+}

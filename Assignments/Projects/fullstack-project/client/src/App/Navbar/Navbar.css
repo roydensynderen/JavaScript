@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Lato-Regular;
+}
+.topBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 2px solid #404b69;
+    border-top: 4px solid #00818a;
+}
+.call {
+    padding: 10px 20px 10px 40px;
+}
+.twentyFour {
+    border-left: 2px solid #404b69;
+    padding: 10px 10px 10px 20px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 0.5px solid #404b69;
+}
+.navLinks {
+    text-decoration: none;
+    font-weight: 1000;
+    color: black;
+    padding: 15px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+.navLinks:hover {
+    color: #00818a;
+    border-top: 5px solid #00818a;
+}

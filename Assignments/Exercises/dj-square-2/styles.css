@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/dj-party-background-3276.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.box1:hover {
+    transition: all 2s ease-in 5ms;
+    animation-name: onHover;
+    animation-duration: 3s;
+    background-color: purple;
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.box2:hover {
+    transition: all 0.5s ease-out 5ms;
+    animation-name: grow;
+    animation-duration: 3s;
+}
+
+.box3 {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+
+.box3:hover {
+    transition: all 0.2s ease-in 0ms;
+    animation-name: border;
+    animation-duration: 3s;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.box4 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.box4:hover {
+    transition: all 0s ease-in 0ms;
+    animation-name: slide;
+    animation-duration: 1.5s;
+}
+
+.box5 {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    box-shadow: 0px;
+}
+
+.box5:hover {
+    transition: all 0.1s ease-in-out 0.1ms;
+    animation-name: otherSide;
+    animation-duration: 2s;
+}
+
+.box6 {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+}
+
+.box6:hover {
+    transition: all 0.1s ease-in 0.1ms;
+    animation-name: try;
+    animation-duration: 2s;
+}
+
+@keyframes onHover {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes otherSide {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+
+@keyframes grow {
+    from {
+        height:200px;
+        width: 200px;
+    }
+    to {
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+    }
+}
+
+@keyframes border {
+    from {
+        border: none;
+    }
+    to {
+        border: 100px solid black;
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100px);
+    }
+    50% {
+        transform: translateX(-50px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes try {
+    from {
+        transform: translateY(0px);
+        box-shadow: 10px 10px 5px 0px rgb(253, 250, 47);
+    }
+    to {
+        transform: translateY(-150px);
+        box-shadow: 20px 20px 10px 0px rgb(30, 150, 47);
+    }
+}

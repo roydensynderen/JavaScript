@@ -1,0 +1,31 @@
+.wrapper {
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.568);
+    margin: 10px 0px;
+    width: 68%;
+
+}
+.blogposth1 {
+    font-family: OpenSans-Regular;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 10px 0px;
+    color: black;
+}
+.blogposth3 {
+    font-family: OpenSans-Light;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 10px 0px;
+    color: black;
+}
+.blogpostp {
+    font-family: Lora-Regular;
+    font-size: 18px;
+    line-height: 27px;
+    color: #868e96;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
