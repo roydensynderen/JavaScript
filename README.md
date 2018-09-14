@@ -1,4 +1,4 @@
-### V-School
+## V-School
 
 Graduated from a Full-Stack JavaScript Program specializing in the MERN Stack, consisting of Mongo, Express, React & Node respectively. Exercises and projects done in V School can be found here. 
 
